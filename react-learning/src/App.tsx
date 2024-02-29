@@ -1,7 +1,11 @@
 import { Fragment } from "react/jsx-runtime";
-import { useState } from "react";
+import AnimateSvg from "./AnimateSvg";
 
 const App = () => {
-  return <Fragment>Welcome to React APP</Fragment>;
+  return (
+    <Fragment>
+      <AnimateSvg />
+    </Fragment>
+  );
 };
 export default App;
